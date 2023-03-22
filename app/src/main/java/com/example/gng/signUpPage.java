@@ -1,13 +1,10 @@
 package com.example.gng;
 
-import static android.content.ContentValues.TAG;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +23,8 @@ public class signUpPage extends AppCompatActivity {
     EditText txtNameID, txtConfirmPasswordID ,txtPasswordID, txtAgeID,txtEmailID;
     RadioGroup radioGroupGender;
     Button btnSignUp;
+
+    private static final String TAG = "EmailPassword";
     private FirebaseAuth mAuth;
 
 
@@ -41,7 +40,7 @@ public class signUpPage extends AppCompatActivity {
         txtPasswordID = findViewById(R.id.txtPasswordID);
         txtAgeID = findViewById(R.id.txtAgeID);
         txtEmailID = findViewById(R.id.txtEmailID) ;
-        btnSignUp =findViewById(R.id.signup);
+        btnSignUp =findViewById(R.id.btnSignupID);
 
     }
     private void createAccount(String email, String password) {
@@ -65,6 +64,10 @@ public class signUpPage extends AppCompatActivity {
                     }
                 });
         // [END create_user_with_email]
+    }
+
+    private void updateUI(FirebaseUser user) {
+        //Have to update user details in database
     }
 
 

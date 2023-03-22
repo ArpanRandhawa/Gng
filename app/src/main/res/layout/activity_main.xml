@@ -8,8 +8,10 @@
     android:background="@drawable/img">
 
 
+
+
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/btnSignupID"
         android:layout_width="238dp"
         android:layout_height="50dp"
 
@@ -28,11 +30,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Login"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginID"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/Login"
+        android:id="@+id/btnLoginID"
         android:layout_width="235dp"
         android:layout_height="49dp"
 
@@ -51,6 +53,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignupID"
+        app:layout_constraintVertical_bias="0.939"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9222550575621736~7621421214"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
