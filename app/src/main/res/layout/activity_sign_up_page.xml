@@ -131,6 +131,7 @@
         android:layout_gravity="start"
         android:layout_marginBottom="52dp"
         android:background="#69729F"
+        android:onClick="signUpFunction"
         android:text="SIGN UP"
         android:textColor="#121111"
         android:textStyle="bold"
