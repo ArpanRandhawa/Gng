@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:507839119885:android:38794053d2d51df78c0b44",
+        "mobilesdk_app_id": "1:507839119885:android:088c9d4b587a5a798c0b44",
         "android_client_info": {
-          "package_name": "com.csis4495gng"
+          "package_name": "com.example.gng"
         }
       },
       "oauth_client": [
