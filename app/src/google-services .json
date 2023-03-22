@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "507839119885",
+    "project_id": "glamandgloss-dfcd7",
+    "storage_bucket": "glamandgloss-dfcd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507839119885:android:38794053d2d51df78c0b44",
+        "android_client_info": {
+          "package_name": "com.csis4495gng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507839119885-2maub862gsd8quuukfq2q1nn4as3te74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACO3iqEilXKiGxDmlW_8PPn4eJ8A6ZEO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507839119885-2maub862gsd8quuukfq2q1nn4as3te74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
